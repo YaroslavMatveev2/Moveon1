@@ -1,0 +1,684 @@
+/*--------------------------------Подготовка к работе(обнуление; подключение)----------------------------*/
+
+ul[class],
+ol[class] {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+img{
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x:hidden;
+  font-family: 'Jost', sans-serif;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+}
+
+/*--------------------------------------------------Меню-----------------------------------------------------*/
+.first_block {
+  height: 1110px;
+  background: url(images/First_backgrounf.png) no-repeat center 100%;
+  background-size:cover;
+  width: 100%;
+  color: #fff;
+  font-weight: 500;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1650px;
+  align-items: center;
+}
+.menu {                        
+  padding-top: 55px;
+  justify-content: space-between;
+  display: flex;
+}
+.menu_logo {
+  position: relative;
+  z-index: 10;
+  font-size: 36px;
+}
+
+
+.menu_ul {
+  display: flex;
+}
+.menu_li {
+  font-size: 20px;
+  margin-right: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu_li:hover {
+  text-shadow: 2px 5px 5px rgba(0,0,0,0.3);
+
+}
+
+.menu_li:last-child {
+  margin-right: 0px;
+}
+
+.menu_li_logo{
+  padding-top: 2.5px;
+}
+
+/*----------------------------------------------Первый блок-----------------------------------------------------*/
+
+.first_block_main{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.fb_main_txt {
+  width: 550px;
+  padding-top: 215px;
+}
+.fb_first_txt {
+  font-size: 48px;
+  padding-bottom: 15px;
+  font-weight: 700;
+}
+.fb_second_txt {
+  font-weight: 400;
+}
+
+.fb_btn_container{
+  display: flex;
+  padding-top: 45px;
+}
+
+.fb_btn {
+  padding: 16px 22px;
+  border: 3px solid rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 17px;
+  color:rgba(255, 255, 255, 1);
+  width: 200px;
+  height: 53px;
+  background: transparent;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+
+.pd{
+  padding: 16px 30px;
+  margin-right: 20px;
+}
+
+.fb_main_img {
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+
+.fb_btn_img{
+  padding-right: 5px;
+}
+
+/*-----------------------------------------------Основной контент----------------------------------------*/
+.heading_cnt {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.heading_first_txt {
+  color:rgba(0, 0, 0, 1);
+  font-weight: 500;
+  font-size: 46px;
+}
+.heading_second_txt {
+  color:rgba(171, 171, 171, 1);
+  font-size: 18px;
+}
+
+.function_cnt {
+  width: 100%;
+  max-width: 1589px;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+}
+
+.function_first_half {
+  padding-top:150px;
+  text-align: right;
+}
+
+.function_card {
+  display: flex;
+  width: 100%;
+  max-width: 450px;
+  margin-bottom: 190px;
+}
+
+
+.function_card:first-child {
+  margin-bottom: 188px;
+}
+
+.function_card:last-child {
+    margin-top: 193px;
+}
+
+.function_center_img{
+  margin-right: 115px;
+  margin-left: 115px;
+}
+
+.function_first_txt {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.function_second_txt {
+  color: rgba(176, 176, 176, 1);
+  font-size: 18px;
+}
+
+/*--------------------------------Изобржения-----------------------------------*/
+.function_card_img_1{
+  background: url(images/icon_5.svg) no-repeat center;
+  width: 90px;
+  height: 90px;
+
+}
+
+.function_card_img_2{
+  background: url(images/icon_1.svg) no-repeat center;
+  width: 90px;
+  height: 90px;
+}
+
+.function_card_img_3{
+  background: url(images/icon_6.svg) no-repeat center;
+  width: 90px;
+  height: 90px;
+}
+
+.function_card_img_4{
+  background: url(images/icon_2.svg) no-repeat center;
+  width: 90px;
+  height: 90px;
+}
+
+.function_card_img_5{
+  background: url(images/icon_3.svg) no-repeat center;
+  width: 90px;
+  height: 90px;
+}
+
+.function_card_img_6{
+  background: url(images/icon_4.svg) no-repeat center;
+  width: 90px;
+  height: 90px;
+}
+
+
+/*---------------------------------------------------------------------------*/
+
+.function_card_img_cnt{
+  margin-left: 26px;
+  margin-right: 26px;
+  background: linear-gradient(180deg, #8253D8 0%, #D05DDE 100%);
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+
+
+.function_second_half {
+  padding-top: 150px;
+  text-align: left;
+}
+
+/*---------------------------------------------Подвал--------------------------------------------*/
+
+.footer {
+  height:800px;
+  background: url(images/footer_bg.png) no-repeat center 100%;
+  background-size:cover;
+  width: 100%;
+}
+.footer_cnt {
+  width: 100%;
+  max-width: 1589px;
+  margin: 0 auto;
+  color: #fff;
+  padding-top: 12%;
+}
+.additionally_cnt {
+  display: flex;
+  width: 100%;
+  max-width: 1589px;
+  justify-content: space-between;
+}
+
+.adt_card:first-child{
+  width: 450px;
+}
+
+.adt_card{
+  width: 300px;
+}
+
+.adt_card:last-child{
+  min-width: 235px;
+  margin-right: 0px;
+}
+
+
+.adt_first_txt {
+  font-weight: 700;
+  font-size: 28px;
+  padding-bottom: 13px;
+}
+.adt_second_txt {
+  font-size: 18px;
+}
+
+.adt_cntr_line {
+  width: 100%;
+  margin-top: 84px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.adt_logo{
+  width: 200px;
+  padding-top:3%;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+/*----------------------------------------Адаптив-------------------------------------------*/
+@media (max-width:1230px) {
+
+  .heading_cnt{
+    padding-top:500px;
+  }
+  
+  .adt_first_txt {
+    font-size: 22px;
+  }
+  .adt_second_txt {
+    font-size: 14px;
+  }
+
+  
+  .adt_card:first-child{
+   width: 275px;
+  }
+
+  .first_block_main{
+    display: block;
+    width: 510px;
+    text-align: center;
+  }
+
+  .fb_main_img{
+    margin-left: -55px;
+  }
+
+  .fb_btn_container{
+    margin-left: 55px;
+  }
+  .fb_main_txt {
+    width: 550px;
+    padding-top: 100px;
+  }
+}
+
+@media (max-width:955px){
+
+  .menu_burger{
+    z-index: 5;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.footer{
+  background: url(images/footer_bg_adpt.svg) center top no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.adt_card{
+  padding-bottom: 25px;
+  width:100%;
+}
+
+.adt_card:last-child{
+  padding-bottom: 0px;
+}
+
+.adt_logo{
+  padding-top: 1.9%;
+}
+
+.menu_burger span,
+.menu_burger:before,
+.menu_burger:after{
+  left: 0;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  transition: all 0.3s ease 0s;
+  background-color: #fff;
+}
+
+.menu_burger::before,
+.menu_burger::after{
+  content: "";
+}
+
+.menu_burger::before{
+  top:0;
+}
+
+.menu{
+  padding-top: 20px;
+}
+
+.menu_burger::after{
+  bottom: 0;
+}
+
+
+.menu_burger span{
+top: 44%;
+}
+
+.active span{
+  transform: scale(0) translate(0, -50%);
+}
+
+.active::before{
+  top:50%;
+  transform: rotate(45deg) translate(0, -50%);
+}
+.active::after{
+  bottom: 50%;
+  transform: rotate(-45deg) translate(0, 50%);
+}
+
+._lock{
+  overflow: hidden;
+}
+
+.ul_cnt{
+  position: fixed;
+  transform: translate(-100%, 0px);
+  transition: 0.5s;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(179.98deg, #8253D8 15.43%, #D05DDE 99.97%);
+  padding-top: 100px;
+
+}
+.active{
+  transform: translate(0px, 0px);
+}
+
+.menu_ul{
+  display: block;
+}
+
+.menu_li{
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.menu_li:hover{
+text-shadow: none;
+}
+
+.heading_cnt{
+  padding-top:200px;
+}
+
+}
+
+@media (max-width:700px) {
+  .fb_main_img > img{
+    width: 455px;
+    height: 525px;
+    margin-left:92px;
+  }
+
+  .heading_first_txt{
+    font-size: 36px;
+  }
+
+  
+.first_block {
+  background: url(images/adaptive_bg.png) no-repeat 100% 100%;
+  background-size:cover;
+  width: 100%;
+  height: 1300px;
+}
+
+  .heading_second_txt{
+    font-size: 16px;
+  }
+
+  .fb_first_txt{
+    font-size: 28px;
+  }
+
+  .fb_second_txt{
+    font-size: 18px;
+}
+
+  .fb_main_txt{
+    width: 500px;
+    text-align: center;
+    margin:  0 auto;
+}
+
+}
+@media (max-width:590px) {
+  .fb_btn_container{
+   display: block;
+   margin-left: 70px;
+  }
+
+  .fb_main_img > img{
+    width: 371px;
+    height: 425px;
+    margin: 0 auto;
+    margin-left: 50px;
+    padding: 0px;
+  }
+
+  .heading_cnt{
+    padding-top: 200px;
+  }
+
+  .fb_main_txt{
+    width: 100%;
+    max-width: 350px;
+    margin:0 auto;
+    padding: 0px;
+  }
+
+  .first_block_main{
+    width: 350px;
+    text-align: center;
+  }
+
+  .pd{
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 410px) {
+
+  .fb_main_img > img{
+    width: 271px;
+    height: 325px;
+    margin-left: 50px;
+    padding: 0px;
+   
+  }
+
+  .first_block_main{
+    padding-top: 100px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .fb_btn_container{
+    display: block;
+    margin-left: 20px;
+   }
+}
+
+/*-------------------------------------------Адаптив основного контента----------------------------------*/
+
+@media (max-width: 1553px) {
+  .function_center_img{
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 1425px) {
+  .function_center_img{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 1365px) {
+  .function_second_txt {
+    font-size: 15px;
+  }
+
+  .function_first_txt {
+    font-size: 18px;
+  }
+}
+
+@media (max-width:1230px){
+  
+  .function_cnt{
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
+
+  .function_card{
+    margin-bottom: 0px;
+  }
+
+  .function_card:first-child {
+    margin-bottom: 100px;
+  }
+  
+  .function_card:last-child {
+      margin-top: 100px;
+  }
+
+  .function_center_img{
+    margin-left: -15px;
+  }
+
+  .function_second_half {
+    padding-top: 100px;
+  }
+  
+  .function_first_half  {
+    padding-top: 0;
+    margin-bottom: 60px;
+  }
+
+}
+
+@media(max-width:510px){
+  .function_center_img > img{
+    width: 283px;
+    height: 573px;
+    margin-left: 75px;
+  }
+
+}
+
+@media (max-width: 1257px) {
+  .function_second_txt {
+    font-size: 12px;
+  }
+
+  .function_first_txt {
+    font-size: 17px;
+  }
+  
+  .adt_logo{
+    font-size: 18px;
+    width: 180px;
+  }
+}
+
+@media(max-width:430px){
+  .function_cnt{
+    width: 100%;
+  }
+  .function_center_img > img{
+    width: 253px;
+    height: 533px;
+  }
+}
+
+@media(max-width:358px){
+  .function_center_img > img{
+    margin-left: 30px;
+  }
+  
+}
+
+@media (max-width:1800px) {
+  .footer_cnt {
+    padding-top: 22%;
+  }
+  
+}
+
+@media (max-width:1575px) {
+  .footer_cnt {
+    padding-top: 25%;
+  }
+}
+
+@media (max-width:955px) {
+
+  .footer_cnt {
+    padding-top: 40%;
+  }
+  
+  .additionally_cnt{
+    display: block;
+  }
+}
